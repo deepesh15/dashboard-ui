@@ -47,7 +47,9 @@ const SignIn = () => {
             {/* <label htmlFor="password">Password</label>
             <input type="password" /> */}
             <p>
-              <a href="#">Forgot password?</a>
+             <div className="link">
+              <Link>Forgot password?</Link>
+             </div>
             </p>
             <button>Sign In</button>
           </div>

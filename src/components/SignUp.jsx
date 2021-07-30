@@ -7,9 +7,9 @@ import GoogleLogin from "react-google-login";
 const SignUp = () => {
   //callback function for google signin
   const responseGoogle = (res) => {
-    if(res.tokenId){
-      window.location="/dashboard";
-    }else{
+    if (res.tokenId) {
+      window.location = "/dashboard";
+    } else {
       console.log(res);
     }
   };
@@ -17,8 +17,8 @@ const SignUp = () => {
   return (
     <div className="sign">
       <div className="main-logo">
-            <h1>Dash.</h1>
-        </div>
+        <h1>Dash.</h1>
+      </div>
 
       <div className="sign-form">
         <div className="form-header">
@@ -28,15 +28,15 @@ const SignUp = () => {
 
         <div className="form-body">
           <div className="options">
-         <div className="google-login">
-         <GoogleLogin
-              clientId="1020269306949-j8t3porf61g95nqckt4jomgpiunc4dql.apps.googleusercontent.com"
-              buttonText="Sign in with Google"
-              onSuccess={responseGoogle}
-              onFailure={responseGoogle}
-              cookiePolicy="single_host_origin"
-            />
-         </div>
+            <div className="google-login">
+              <GoogleLogin
+                clientId="1020269306949-j8t3porf61g95nqckt4jomgpiunc4dql.apps.googleusercontent.com"
+                buttonText="Sign in with Google"
+                onSuccess={responseGoogle}
+                onFailure={responseGoogle}
+                cookiePolicy="single_host_origin"
+              />
+            </div>
             <button>
               <AppleLogo /> Sign Up with Apple
             </button>
@@ -61,10 +61,12 @@ const SignUp = () => {
             <ShowPassword />
             <label htmlFor="password">Confirm password</label>
             <ShowPassword />
-            <p >
+            <p>
               <div className="gray-text">
-              <input type="checkbox" /> I agree to the{" "}
-              <a href="#">terms and conditions</a>
+                <input type="checkbox" /> I agree to the
+                <div className="link">
+                  <Link>terms and conditions</Link>
+                </div>
               </div>
             </p>
             <button>Sign Up</button>

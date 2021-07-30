@@ -103,5 +103,10 @@ button{
     padding-left: 3rem;
 }
 .gray-text{
+    display: flex;
+    align-items: center;
     color: $Light-Grey;
+}
+.link{
+    padding-left: 1rem;
 }
