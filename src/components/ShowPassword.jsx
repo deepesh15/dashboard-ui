@@ -33,4 +33,3 @@ class ShowPassword extends React.Component {
 }
 
 export default ShowPassword;
-//   ReactDOM.render(<ShowPassword/>, document.getElementById('react'));

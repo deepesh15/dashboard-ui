@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import ShowPassword from "./ShowPassword";
-import MainLogo from "./MainLogo";
 import { ReactComponent as AppleLogo } from "../svg/apple.svg";
 import GoogleLogin from "react-google-login";
 
@@ -17,7 +16,9 @@ const SignIn = () => {
 
   return (
     <div className="sign">
-      <MainLogo />
+      <div className="main-logo">
+            <h1>Dash.</h1>
+        </div>
       <div className="sign-form">
         <div className="form-header">
           <h3>Sign In</h3>
