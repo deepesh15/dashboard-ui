@@ -2,5 +2,5 @@
 First 
 `npm install`
 
-\Then
+Then
 `npm start`
