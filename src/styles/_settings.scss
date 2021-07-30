@@ -1,0 +1,143 @@
+.settings-container {
+  background-color: $Background;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+.settings-body {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.settings-content {
+  display: flex;
+  font-size: large;
+}
+.settings-section-1,.settings-section-2{
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+}
+.settings-section-1{
+  margin-right: 4rem;
+  padding-right: 5rem;
+}
+.settings-section-2 {
+  display: flex;
+  flex-direction: column;
+  margin: 0rem 3rem 3rem 0rem;
+}
+
+
+//styling for profile card
+.profile-card{
+  padding: 1rem;
+  display: flex;
+  border-radius: 2rem;
+}
+
+.card-header {
+  padding: 1rem;
+  margin: 1rem;
+}
+.card-body {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 0rem 0rem 2rem 2rem;
+}
+
+.user-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 2rem;
+  padding: 2rem 0rem 2rem 0rem;
+}
+
+.user-image img {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+}
+.user-image button {
+  padding: 0.5rem  1rem;
+  margin-top: 1rem;
+  color: $Secondary-Text;
+  border: solid;
+  border-color: $Secondary-Text;
+  background-color: transparent;
+}
+
+.details-section {
+  margin: 0rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.profile-name{
+  display: flex;
+}
+
+.first-name,.last-name{
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-button{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+//styling for account card
+.account-card {
+  margin-bottom: 3rem;
+  border-radius: 2rem;
+  display: flex;
+}
+.account-save{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+}
+.account-content {
+  display: flex;
+  flex-direction: column;
+}
+
+
+//styling for security card
+
+.security-card {
+  margin-bottom: 3rem;
+  border-radius: 2rem;
+}
+.security-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+//styling for delete card
+.delete-card {
+  margin-bottom: 3rem;
+  border-radius: 2rem;
+  width: 100%;
+  color: #AF0000;
+}
+.delete-button{
+  margin: 1rem 0rem;
+  display: flex;
+  justify-content: center;
+}
+.delete-card button{
+  font-size: x-large;
+  width: 100%;
+  color: #AF0000;
+  border: solid #AF0000;
+  background-color: transparent;
+}

@@ -1,0 +1,116 @@
+.user-container {
+  background-color: $Background;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 2rem;
+}
+.user-body {
+  border-radius: 2rem;
+  width: 100%;
+}
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+//pagination queries
+.search-input {
+  background-color: $Background;
+  margin: 0rem 1rem;
+  border-radius: 1rem;
+}
+.search-icon {
+  cursor: pointer;
+  padding-right: 1rem;
+}
+.table-options {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0rem 1rem 0rem 1rem;
+}
+
+.table-options button {
+  margin: 0rem 0.5rem;
+}
+.user-list {
+  padding: 0rem 3rem 3rem 3rem;
+  border-radius: 5rem;
+}
+//styling for tables
+table {
+  font-family: $secondary-font;
+  font-size: x-large;
+  width: 100%;
+  padding: 1rem;
+  border-collapse: separate;
+  border-spacing: 0rem 2rem;
+}
+.table-img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+td {
+  text-align: left;
+  padding: 1rem;
+  margin-bottom: 1rem; 
+}
+
+tr:nth-of-type(odd) {
+  background-color: #dddddd;
+}
+
+tr:nth-of-type(even) {
+    background-color: $Background;
+}
+
+//for rounded edges on table rows
+// td:first-child {
+//     border-left-style: solid;
+//     border-top-left-radius: 10px; 
+//     border-bottom-left-radius: 10px;
+// }
+// td:last-child {
+//     border-right-style: solid;
+//     border-bottom-right-radius: 10px; 
+//     border-top-right-radius: 10px; 
+// }
+//this is not working getting blacked sides
+
+.user-row {
+  display: flex;
+  background-color: $Background;
+  align-items: center;
+
+  justify-content: space-around;
+}
+.user-row img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+.user-row p {
+  padding: 0rem 1rem;
+}
+
+.user {
+  padding: 1rem;
+  height: 100%;
+  width: 100%;
+}
+
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+.pagination button {
+  padding: 0.1rem 0.8rem;
+  border-radius: 0.2rem;
+  margin: 0rem 0.2rem;
+  color: $Secondary-Text;
+  border: solid $Secondary-Text 1px;
+  background-color: transparent;
+}

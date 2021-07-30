@@ -1,0 +1,26 @@
+nav{
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1.5rem;
+}
+.header-options{
+    display: flex;
+    align-items: center;
+}
+.header-options img{
+    margin-left: 1rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.header-options span{
+    cursor: pointer;
+}
+.header-options input{
+    margin-right: 1rem;
+    background-color: white;
+}
