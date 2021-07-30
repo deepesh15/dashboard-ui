@@ -4,7 +4,7 @@ import SearchIcon from "../svg/search.svg";
 import NextIcon from "../svg/next.svg";
 import PrevIcon from "../svg/prev.svg";
 const Pagination = ({ data, pageLimit, dataLimit }) => {
-  const [pages, setPages] = useState(Math.round(data.length / dataLimit));
+  const [pages] = useState(Math.round(data.length / dataLimit));
   const [currentPage, setCurrentPage] = useState(1);
 
   //go to next page
