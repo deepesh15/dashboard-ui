@@ -110,3 +110,11 @@ button{
 .link{
     padding-left: 1rem;
 }
+
+//media queries for some responsive display
+@media (max-width:1400px) {
+    .sign-form{
+        
+        padding: 0rem 8rem;
+    }
+}
