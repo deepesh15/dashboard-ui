@@ -31,7 +31,7 @@ const SignUp = () => {
             <div className="google-login">
               <GoogleLogin
                 clientId="1020269306949-j8t3porf61g95nqckt4jomgpiunc4dql.apps.googleusercontent.com"
-                buttonText="Sign in with Google"
+                buttonText="Sign up with Google"
                 onSuccess={responseGoogle}
                 onFailure={responseGoogle}
                 cookiePolicy="single_host_origin"
