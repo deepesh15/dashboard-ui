@@ -1,7 +1,6 @@
 # To run the app locally
 First 
 `npm install`
-\
 
-Then
+\Then
 `npm start`
